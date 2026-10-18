@@ -90,7 +90,7 @@ private fun erfc2f(ixIn: UInt, xIn: Float): Float {
             s * (
                 SA1_F +
                     s * (SA2_F + s * (SA3_F + s * (SA4_F + s * (SA5_F + s * (SA6_F + s * (SA7_F + s * SA8_F))))))
-                )
+            )
     } else {
         r = RB0_F + s * (RB1_F + s * (RB2_F + s * (RB3_F + s * (RB4_F + s * (RB5_F + s * RB6_F)))))
         bigS = 1.0f + s * (SB1_F + s * (SB2_F + s * (SB3_F + s * (SB4_F + s * (SB5_F + s * (SB6_F + s * SB7_F))))))

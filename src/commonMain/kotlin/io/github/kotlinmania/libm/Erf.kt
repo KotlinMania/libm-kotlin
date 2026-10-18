@@ -97,7 +97,7 @@ private fun erfc2(ix: UInt, xIn: Double): Double {
             s * (
                 SA1 +
                     s * (SA2 + s * (SA3 + s * (SA4 + s * (SA5 + s * (SA6 + s * (SA7 + s * SA8))))))
-                )
+            )
     } else {
         r = RB0 + s * (RB1 + s * (RB2 + s * (RB3 + s * (RB4 + s * (RB5 + s * RB6)))))
         bigS = 1.0 + s * (SB1 + s * (SB2 + s * (SB3 + s * (SB4 + s * (SB5 + s * (SB6 + s * SB7))))))
